@@ -4,7 +4,7 @@ import {Link} from "react-scroll";  // Alternate for a tag. In Next js we use Li
 
 function Navbar() {
     // useState is used to change the state while
-    // start it false means when we click then only its open otherwise Not.
+    // start it false means when we click then only its open otherwise Not
     const [isOpen,setIsOpen] = useState(false);
   return (
     <div>
